@@ -1,0 +1,72 @@
+- .eslintrc.cjs
+- .gitignore
+- gifs
+  - Astar.gif
+  - BFS.gif
+  - BinaryDivision.gif
+  - DFS.gif
+  - dijkstra.gif
+  - recursiveDivision.gif
+- index.html
+- package-lock.json
+- package.json
+- postcss.config.js
+- project_structure.text
+- public
+  - vite.svg
+- README.md
+- src
+  - App.tsx
+  - assets
+    - pathfinding-visualizer.gif
+    - react.svg
+  - components
+    - Flyout.tsx
+    - Grid.tsx
+    - Nav.tsx
+    - PlayButton.tsx
+    - ReavealSelect.tsx
+    - Select.tsx
+    - Tile.tsx
+  - context
+    - PathfindingContext.tsx
+    - SpeedContext.tsx
+    - TileContext.tsx
+  - hooks
+    - usePathfinding.tsx
+    - useSpeed.tsx
+    - useTile.tsx
+  - index.css
+  - lib
+    - algorithms
+      - maze
+        - binaryTree.ts
+        - horizontalDivision.ts
+        - recursiveDivision.ts
+        - verticalDivison.ts
+      - pathfinding
+        - aStar.ts
+        - bfs.ts
+        - dfs.ts
+        - dijkstra.ts
+  - main.tsx
+  - utils
+    - animatePath.ts
+    - constants.ts
+    - constructBorder.ts
+    - createWall.ts
+    - destroyWalls.ts
+    - helpers.ts
+    - heuristics.ts
+    - isInQueue.ts
+    - resetGrid.ts
+    - runMazeAlgorithm.ts
+    - runPathfindingAlgorithm.ts
+    - types.ts
+    - unTraversed.ts
+  - vite-env.d.ts
+- tailwind.config.js
+- tsconfig.json
+- tsconfig.node.json
+- vite.config.ts
+- yarn.lock
